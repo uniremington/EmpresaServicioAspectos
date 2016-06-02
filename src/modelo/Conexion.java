@@ -39,7 +39,7 @@ public class Conexion {
 	      }	
 	}
 	
-	public int InsertarSQL(String sql){
+	/*public int InsertarSQL(String sql){
 		
 		try{
 			st = connection.prepareStatement(sql);
@@ -75,6 +75,6 @@ public class Conexion {
 	         return null;
 	    }	
 		
-	}	
+	}	*/
 }
 
