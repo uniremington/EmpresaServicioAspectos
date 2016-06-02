@@ -1,4 +1,4 @@
-package Vistas;
+package vista;
 
 import java.awt.EventQueue;
 
@@ -7,7 +7,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JButton;
 
-public class MostrarRegistro {
+public class MostrarRegistroPais {
 
 	private JFrame frame;
 
@@ -18,7 +18,7 @@ public class MostrarRegistro {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					MostrarRegistro window = new MostrarRegistro();
+					MostrarRegistroPais window = new MostrarRegistroPais();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -30,7 +30,7 @@ public class MostrarRegistro {
 	/**
 	 * Create the application.
 	 */
-	public MostrarRegistro() {
+	public MostrarRegistroPais() {
 		initialize();
 	}
 
